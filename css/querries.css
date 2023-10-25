@@ -1,0 +1,176 @@
+@media (max-width: 1200px) {
+  .hero-text,
+  .sweets,
+  .sweets-header,
+  .tips-text {
+    padding: 0 2%;
+  }
+
+  .header {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section-hero-blur {
+    backdrop-filter: blur(8px);
+  }
+
+  .section-hero-details {
+    justify-content: center;
+  }
+  .section-hero {
+    background-position: center;
+  }
+
+  .section-hero-details,
+  .section-sweets,
+  .section-tips {
+    padding: 50px 0 75px 0;
+  }
+
+  .hero-text h1 {
+    text-align: center;
+    font-size: 80px;
+  }
+
+  .hero-text .button {
+    text-align: center;
+  }
+
+  .hero-text p {
+    color: black;
+    padding: 3%;
+    text-align: justify;
+    margin-bottom: 50px;
+  }
+
+  .hero-text .button {
+    margin: 0 auto;
+  }
+
+  .sweets {
+    flex-wrap: wrap;
+  }
+
+  .sweets-card:last-child {
+    margin-top: 40px;
+  }
+
+  .footer p {
+    text-align: center;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 968px) {
+  .section-hero,
+  .section-tips {
+    flex-wrap: wrap-reverse;
+  }
+
+  .section-tips img {
+    width: 40%;
+  }
+
+  .tips-text {
+    margin-top: 40px;
+  }
+
+  .sweets-header,
+  .tips-header {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 772px) {
+  .sweets-card:nth-child(2) {
+    margin-top: 40px;
+  }
+
+  .hero-text {
+    width: 80%;
+  }
+
+  .hero-text .button {
+    display: none;
+  }
+}
+
+@media (max-width: 580px) {
+  .header {
+    flex-flow: column;
+  }
+  .header nav {
+    margin-top: 40px;
+  }
+
+  .header nav a {
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  .header nav a:last-child {
+    margin-top: 30px;
+  }
+
+  .hero-text h1 {
+    font-size: 500%;
+    text-align: center;
+  }
+  .hero-text p {
+    text-align: center;
+  }
+  .hero-text a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sweets-header {
+    font-size: 360%;
+    text-align: center;
+  }
+
+  .tips-header {
+    font-size: 300%;
+    text-align: center;
+  }
+  .tips-text p,
+  .tips-text h3 {
+    text-align: center;
+  }
+  .tips-text ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .footer p {
+    font-size: 120%;
+  }
+
+  .footer img {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (max-width: 320px) {
+  .hero-text h1 {
+    font-size: 50px;
+  }
+
+  .tips-header {
+    font-size: 30px;
+  }
+
+  .tips-text {
+    margin-top: 100px;
+  }
+
+  .sweets-header {
+    font-size: 30px;
+  }
+}
